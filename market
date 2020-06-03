@@ -17,8 +17,8 @@
 	],
     "paneLayoutOverride" : {
       "windowtitle" : {
-        "title" : "Название обменника",
-        "subtitle" : "Описание",
+        "title" : "Market's name",
+        "subtitle" : "Description",
         "icon" : {
           "file" : "/interface/crafting/other.png"
         }
