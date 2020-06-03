@@ -1,0 +1,28 @@
+/spawnitem marketstall1 1 '{
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingmerchant.config",
+	"recipes": [{
+			"input": [{
+				"name": "silverore",
+				"count": 1,
+				"parameters": {}
+			}],
+			"output": {
+				"name": "copperore",
+				"count": 1,
+				"parameters": {}
+			}
+		}
+	],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Название обменника",
+        "subtitle" : "Описание",
+        "icon" : {
+          "file" : "/interface/crafting/other.png"
+        }
+      }
+    }
+  }
+}'
